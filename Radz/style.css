@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: myfont;
+    list-style: none;
+    text-decoration:none;
+}
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 10%;
+}
+.navmenu{
+    display: flex;
+}
+.navmenu a{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px ;
+    transition: all .42 ease;
+}
+.navmenu a:hover{
+    color: black;
+}
+section{
+    padding: 5% 10%;
+}
+.main-home{
+    width: 100%;
+    height: 100vh;
+}
+.main-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
